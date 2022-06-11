@@ -139,6 +139,7 @@ void cMain::RevealNeighbors(int x, int y)
 			if (bombs == 0) 
 			{
 				RevealNeighbors(nx, ny);
+
 			}
 		}
 	}
